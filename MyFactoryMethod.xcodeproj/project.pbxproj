@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180EE40F1587251700A6FC3B /* SecondFoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 180EE40E1587251700A6FC3B /* SecondFoo.m */; };
 		1837EA78158677A30037C02D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837EA77158677A30037C02D /* UIKit.framework */; };
 		1837EA7A158677A30037C02D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837EA79158677A30037C02D /* Foundation.framework */; };
 		1837EA7C158677A30037C02D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1837EA7B158677A30037C02D /* CoreGraphics.framework */; };
 		1837EA82158677A30037C02D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1837EA80158677A30037C02D /* InfoPlist.strings */; };
 		1837EA84158677A30037C02D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837EA83158677A30037C02D /* main.m */; };
 		1837EA88158677A40037C02D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837EA87158677A40037C02D /* AppDelegate.m */; };
+		1837EA90158677BE0037C02D /* Foo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837EA8F158677BE0037C02D /* Foo.m */; };
+		1837EA93158679200037C02D /* SpicyFoo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837EA92158679200037C02D /* SpicyFoo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180EE40D1587251600A6FC3B /* SecondFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondFoo.h; sourceTree = "<group>"; };
+		180EE40E1587251700A6FC3B /* SecondFoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondFoo.m; sourceTree = "<group>"; };
 		1837EA73158677A30037C02D /* MyFactoryMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFactoryMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1837EA77158677A30037C02D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1837EA79158677A30037C02D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1837EA7B158677A30037C02D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1837EA7F158677A30037C02D /* MyFactoryMethod-Info.plist */ = {isa = PBXFileReference; path = "MyFactoryMethod-Info.plist"; sourceTree = "<group>"; };
+		1837EA7F158677A30037C02D /* MyFactoryMethod-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFactoryMethod-Info.plist"; sourceTree = "<group>"; };
 		1837EA81158677A30037C02D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1837EA83158677A30037C02D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1837EA85158677A30037C02D /* MyFactoryMethod-Prefix.pch */ = {isa = PBXFileReference; path = "MyFactoryMethod-Prefix.pch"; sourceTree = "<group>"; };
-		1837EA86158677A30037C02D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1837EA85158677A30037C02D /* MyFactoryMethod-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFactoryMethod-Prefix.pch"; sourceTree = "<group>"; };
+		1837EA86158677A30037C02D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1837EA87158677A40037C02D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1837EA8E158677BE0037C02D /* Foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foo.h; sourceTree = "<group>"; };
+		1837EA8F158677BE0037C02D /* Foo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foo.m; sourceTree = "<group>"; };
+		1837EA91158679200037C02D /* SpicyFoo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpicyFoo.h; sourceTree = "<group>"; };
+		1837EA92158679200037C02D /* SpicyFoo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpicyFoo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +81,12 @@
 		1837EA7D158677A30037C02D /* MyFactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				1837EA91158679200037C02D /* SpicyFoo.h */,
+				1837EA92158679200037C02D /* SpicyFoo.m */,
+				180EE40D1587251600A6FC3B /* SecondFoo.h */,
+				180EE40E1587251700A6FC3B /* SecondFoo.m */,
+				1837EA8E158677BE0037C02D /* Foo.h */,
+				1837EA8F158677BE0037C02D /* Foo.m */,
 				1837EA86158677A30037C02D /* AppDelegate.h */,
 				1837EA87158677A40037C02D /* AppDelegate.m */,
 				1837EA7E158677A30037C02D /* Supporting Files */,
@@ -153,6 +168,9 @@
 			files = (
 				1837EA84158677A30037C02D /* main.m in Sources */,
 				1837EA88158677A40037C02D /* AppDelegate.m in Sources */,
+				1837EA90158677BE0037C02D /* Foo.m in Sources */,
+				1837EA93158679200037C02D /* SpicyFoo.m in Sources */,
+				180EE40F1587251700A6FC3B /* SecondFoo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +272,7 @@
 				1837EA8D158677A40037C02D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
